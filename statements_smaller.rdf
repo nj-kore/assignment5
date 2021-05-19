@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#"
+	xmlns:wgs="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:gn="http://www.geonames.org/ontology#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#alumnusOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Person">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#bornIn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#employeeOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Organisation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#locatedIn">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#countryName">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#organisationName">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#personName">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#placeName">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#yearFounded">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q371522">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q218506">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q185246">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q219564">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q221645">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1751928">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1312762">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2002420">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1972721">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1940803">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q977781">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q854280">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1144565">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q836805">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q782600">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1858061">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3279424">
+	<rdf:type rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University">
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Organisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#alumnusOf">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#bornIn">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#employeeOf">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#locatedIn">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Organisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#countryName">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#organisationName">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Organisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#personName">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#placeName">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#yearFounded">
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#alumnusOf">
+	<rdfs:range rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#University"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#bornIn">
+	<rdfs:range rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#employeeOf">
+	<rdfs:range rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Organisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#locatedIn">
+	<rdfs:range rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#countryName">
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#organisationName">
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#personName">
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#placeName">
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#yearFounded">
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q371522">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25287"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q218506">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q2167"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q185246">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25286"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q219564">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q1754"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q221645">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q1754"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1751928">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q26152"/>
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q26345"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1312762">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25286"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2002420">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25732"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1972721">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q7230430"/>
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q26268"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1940803">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q26476"/>
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q26515"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q977781">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q5242576"/>
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q2211"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q854280">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q1754"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1144565">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25579"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q836805">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25287"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q782600">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25413"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1858061">
+	<locatedIn rdf:resource="http://www.wikidata.org/entity/Q25457"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25287">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2167">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25286">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1754">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26152">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26345">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25732">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q7230430">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26268">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26476">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q5242576">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26515">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25579">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25413">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25457">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2211">
+	<countryName xml:lang="en">Sweden</countryName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q371522">
+	<organisationName xml:lang="en">University of Gothenburg</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q218506">
+	<organisationName xml:lang="en">Lund University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q185246">
+	<organisationName xml:lang="en">Uppsala University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q219564">
+	<organisationName xml:lang="en">Karolinska Institute</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q221645">
+	<organisationName xml:lang="en">Stockholm University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1751928">
+	<organisationName xml:lang="en">Linnaeus University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1312762">
+	<organisationName xml:lang="en">Swedish University of Agricultural Sciences</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2002420">
+	<organisationName xml:lang="en">Örebro University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1972721">
+	<organisationName xml:lang="en">Luleå University of Technology</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1940803">
+	<organisationName xml:lang="en">Mid Sweden University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q977781">
+	<organisationName xml:lang="en">Malmö University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q854280">
+	<organisationName xml:lang="en">Royal Institute of Technology</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1144565">
+	<organisationName xml:lang="en">Umeå University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q836805">
+	<organisationName xml:lang="en">Chalmers University of Technology</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q782600">
+	<organisationName xml:lang="en">Linköping University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1858061">
+	<organisationName xml:lang="en">Karlstad University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3279424">
+	<organisationName xml:lang="en">Växjö University</organisationName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25287">
+	<placeName xml:lang="en">Gothenburg</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2167">
+	<placeName xml:lang="en">Lund</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25286">
+	<placeName xml:lang="en">Uppsala</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1754">
+	<placeName xml:lang="en">Stockholm</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26152">
+	<placeName xml:lang="en">Växjö</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26345">
+	<placeName xml:lang="en">Kalmar</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25732">
+	<placeName xml:lang="en">Örebro</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q7230430">
+	<placeName xml:lang="en">Porsön</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26268">
+	<placeName xml:lang="en">Luleå</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26476">
+	<placeName xml:lang="en">Sundsvall</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q5242576">
+	<placeName xml:lang="en">Universitetsholmen</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26515">
+	<placeName xml:lang="en">Östersund</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25579">
+	<placeName xml:lang="en">Umeå</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25413">
+	<placeName xml:lang="en">Linköping</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25457">
+	<placeName xml:lang="en">Karlstad</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2211">
+	<placeName xml:lang="en">Malmö</placeName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q371522">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1954-07-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q218506">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1666-12-19T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q185246">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1477-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q219564">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1810-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q221645">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1878-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1751928">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1312762">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2002420">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1972721">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1971-07-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1940803">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q977781">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-07-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q854280">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1827-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1144565">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1965-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q836805">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1829-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q782600">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1975-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1858061">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3279424">
+	<yearFounded rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-01T00:00:00Z</yearFounded>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25287">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2167">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25286">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1754">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26152">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26345">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25732">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q7230430">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26268">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26476">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q5242576">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q26515">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25579">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25413">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q25457">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2211">
+	<type xmlns="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#rdf:" rdf:resource="http://www.semanticweb.org/korej/ontologies/2021/4/assignment4-ontology#Place"/>
+</rdf:Description>
+
+</rdf:RDF>
